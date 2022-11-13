@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.App{
+    display: flex;
+    
+}
+.flowchartWrapper{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background-size: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#declareFlow{
+    position: relative;
+    height: 7vh;
+    width: auto;
+    top: 20vh;
+    left: calc(5vw + 145px);
+}
+#inputFlow{
+    position: relative;
+    height: 6.3vh;
+    width: auto;
+    top: 17vh;
+    left: calc(5vw + 132px);
+}
+#processFlow{
+    position: relative;
+    height: 6.3vh;
+    width: auto;
+    top: 14vh; 
+    left: calc(5vw + 152px);
+}
+#forFlow{
+    position: relative;
+    height: 6.3vh;
+    width: auto;
+    top: 11vh;
+    left: calc(5vw + 154px);
+}
+#ifFlow{
+    position: relative;
+    height: 7.6vh;
+    width: auto;
+    top: 8vh;  
+    left: calc(5vw + 145px);
+}
+#outputFlow{
+    position: relative;
+    height: 7vh;
+    width: auto;
+    top: 4vh;  
+    left: calc(5vw + 158px);  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
